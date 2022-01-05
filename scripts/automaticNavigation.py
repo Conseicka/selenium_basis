@@ -23,11 +23,11 @@ class CompareProducts(unittest.TestCase):
         search_field.send_keys('Platzi')
         search_field.submit()
 
-        time.sleep(3)
+        time.sleep(1)
         driver.back()
-        time.sleep(5)
+        time.sleep(1)
         driver.forward()
-        time.sleep(5)
+        time.sleep(1)
         driver.refresh()
 
     def tearDown(self):
