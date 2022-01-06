@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-class DynamicControls(unittest.TestCase):
+class Typos(unittest.TestCase):
 
     def setUp(self):
         serv = Service('./chromedriver')
